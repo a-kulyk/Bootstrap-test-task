@@ -1,0 +1,453 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500|Roboto:500,700);
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-width: 540px;
+}
+
+.navbar.navbar-default {
+    border-bottom: 2px solid #e4e4e4;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+#top-navbar {
+    background-color: #898989;
+}
+
+#top-navbar a {
+    color: #fff;
+    font-style: italic;
+    font-weight: 300;
+    text-shadow: none;
+}
+
+#top-navbar a:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+#top-navbar .navbar-brand {
+    font-size: 14px;
+}
+
+#top-navbar li>a>span,
+#top-navbar .navbar-brand>span {
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+
+#top-navbar .col-sm-3.col-md-3 {
+    padding: 0;
+}
+
+#top-navbar .navbar-form {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+#top-navbar .navbar-form .input-group>.form-control {
+    background-color: #a1a1a1;
+    border: 1px solid #fff;
+    border-radius: 0;
+    height: 28px;
+}
+
+#top-navbar .input-group>.form-control::-webkit-input-placeholder {
+    color: #fff;
+    font-style: italic;
+}
+
+#top-navbar .navbar-form .icon-search {
+    color: #fff;
+    font-size: 24px;
+    position: relative;
+    top: -5px;
+}
+
+#top-navbar .navbar-toggle {
+    background-color: #a1a1a1;
+}
+
+#sitelogo {
+    color: #000;
+    font-weight: 300;
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+}
+
+#sitelogo:hover {
+    -webkit-transform: scale(1.02); 
+    text-shadow: 1px 1px 3px #333; 
+}
+
+#sitelogo span {
+    font-weight: 500;
+    color: #47A5DE;
+}
+
+#menu-navbar {
+    background-color: #fff;
+}
+
+#menu-navbar p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 16px;
+}
+
+#menu-navbar p span {
+    color: #47A5DE;
+    font-size: 12px;
+}
+
+#menu-navbar ul li a:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-right: 1px solid #ddd;
+}
+
+#menu-navbar .dropdown .dropdown-menu {
+    background-color: #47A5DE;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+#menu-navbar .dropdown .dropdown-menu>li>a {
+    color: #fff;
+    padding: 10px;
+    margin: 2px;
+}
+
+#menu-navbar .dropdown .dropdown-menu>li>a:hover {
+    background-color: #6FC2E9;
+    background-image: none;
+}
+
+.carousel-indicators {
+    bottom: 2px;
+}
+
+.carousel-indicators li,
+.carousel-indicators .active {
+    width: 7px;
+    height: 7px;
+    margin: 0 4px;
+    background-color: #A4A3A7;
+    border: none;
+    border-radius: 7px;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.jumbotron>.container {
+    background-color: #000;
+    padding: 0;
+}
+
+#myCarousel .carousel-control span {
+    position: absolute;
+    top: 46%;
+    z-index: 5;
+    display: inline-block;
+    font-size: 28px;
+}
+
+#myCarousel .carousel-control .icon-arrowright {
+    right: 0;
+}
+
+#myCarousel .carousel-control .icon-arrowleft {
+    left: 0;
+}
+
+#myCarousel .carousel-inner img:hover {
+    opacity: 0.8;
+}
+
+#myCarousel .carousel-control.right,
+#myCarousel .carousel-control.left {
+    background-image: none;
+    width: 4%;
+}
+
+#myCarousel .carousel-control.right:hover,
+#myCarousel .carousel-control.left:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#myCarousel .carousel-caption {
+    height: 150px;
+    width: 400px;
+    bottom: 28px;
+    left: 27px;
+    text-shadow: none;
+    padding: 10px 25px 30px;
+    opacity: 0.9;
+    background-color: white;
+}
+
+#myCarousel .carousel-caption p {
+    font-size: 14px;
+    color: #6E6E6E;
+    text-align: left;
+}
+
+#myCarousel .carousel-caption .image-header {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #000;
+    text-align: center;
+}
+
+#myCarousel .carousel-caption .btn-info {
+    background-color: #47A5DE;
+    border: none;
+    background-image: none;
+    border-radius: 0;
+    position: absolute;
+    left: 25px;
+    bottom: 7px;
+    font-family: Roboto, sans-serif;
+}
+
+#myCarousel .carousel-caption .btn-info:hover {
+    background-color: #2784BC;
+}
+
+.row .circle {
+    margin: 21% auto 8%;
+    border-radius: 50%;
+    width: 28%;
+    background-color: #CD9838;
+}
+
+.row .circle img {
+    margin: 26%;
+    -webkit-filter: invert(100%);
+}
+
+.row .circle:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.95;
+}
+
+.row .col-xs-6.col-md-4:first-child .circle {
+    background-color: #2D9189;
+}
+
+.row .col-xs-6.col-md-4:last-child .circle {
+    background-color: #144664;
+}
+
+.row .container h3,
+.row .container p,
+.row .container {
+    text-align: center;
+}
+
+.row .container p {
+    color: #A1A1A1;
+}
+
+.row .container .btn-default {
+    margin-top: 12px;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 0;
+}
+
+
+/*end of main part*/
+
+@media (min-width: 768px) {
+    .navbar.navbar-default {
+        border-bottom-width: 4px;
+    }
+
+    #top-navbar .navbar-form {
+        padding: 0;
+    }
+
+    #top-navbar .navbar-form .input-group>.form-control {
+        width: 152px;
+    }
+
+    #sitelogo {
+        font-weight: 300;
+        font-size: 32px;
+        top: 20px;
+    }
+
+    #menu-navbar .navbar-collapse li a {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #menu-navbar .navbar-collapse .dropdown>.dropdown-toggle {
+        background-color: #fff;
+        background-image: none;
+    }
+
+    #menu-navbar .dropdown-menu {
+        top: 80%;
+        left: 10px;
+    }
+
+    #menu-navbar .dropdown .dropdown-menu>li>a {
+        font-size: 16px;
+        font-weight: 300;
+        padding: 9px 40px 9px 20px;
+    }
+
+    #menu-navbar p {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 18px
+    }
+
+    #menu-navbar p span {
+        font-size: 12px;
+    }
+
+    #myCarousel .carousel-caption {
+        bottom: 17%;
+        top: 17%;
+        right: 44%;
+        left: 5%;
+        padding: 15px 20px 30px;
+        height: initial;
+        width: initial;
+    }
+
+    #myCarousel .carousel-caption .btn-info {
+        left: 20px;
+        bottom: 10px;
+    }
+}
+/*end of @media (min-width: 768px)*/
+
+@media(min-width:992px) {
+    #menu-navbar {
+        height: 86px;
+    }
+
+    #sitelogo {
+        font-weight: 300;
+        font-size: 40px;
+        top: 20px;
+    }
+
+    #menu-navbar .navbar-collapse li a {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #menu-navbar p {
+        margin-top: 25px;
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+
+    #menu-navbar p span {
+        font-size: 14px;
+    }
+
+    #menu-navbar .dropdown .dropdown-menu>li>a {
+        padding: 9px 45px 9px 22px;
+    }
+
+    #menu-navbar .dropdown-menu {
+        left: 15px;
+    }
+
+    #myCarousel .carousel-control span {
+        font-size: 32px;
+    }
+
+    #myCarousel .carousel-caption {
+        padding: 20px 25px 30px;
+    }
+
+    #myCarousel .carousel-caption .btn-info {
+        left: 30px;
+        bottom: 26px;
+    }
+
+    #myCarousel .carousel-caption p {
+        font-size: 18px;
+    }
+
+    #myCarousel .carousel-caption .image-header {
+        font-size: 36px;
+    }
+}
+/*end of @media (min-width: 992px)*/
+
+@media(min-width:1200px) {
+    #myCarousel .carousel-control span {
+        font-size: 36px;
+    }
+
+    #myCarousel .carousel-caption {
+        padding: 40px 60px 40px 40px;
+    }
+
+    #myCarousel .carousel-caption .btn-info {
+        left: 40px;
+        bottom: 40px;
+        padding: 10px 25px;
+    }
+
+    #myCarousel .carousel-caption p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #myCarousel .carousel-caption .image-header {
+        margin-bottom: 25px;
+        font-size: 42px;
+    }
+}
+/*end of @media (min-width: 1200px)*/
+
+@media(min-width:1600px) {
+    .container {
+        width: 1280px;
+    }
+
+    #myCarousel .carousel-control span {
+        font-size: 44px;
+    }
+
+    #myCarousel .carousel-caption {
+        padding: 50px 70px 50px 44px;
+    }
+
+    #myCarousel .carousel-caption .btn-info {
+        left: 48px;
+        bottom: 45px;
+    }
+
+    #myCarousel .carousel-caption p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #myCarousel .carousel-caption .image-header {
+        font-size: 46px;
+        margin-bottom: 20px;
+    }
+}
+/*end of @media (min-width: 1200px)*/
