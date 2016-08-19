@@ -13,6 +13,7 @@
     "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-livereload": "^3.8.1",
-    "gulp-nodemon": "^2.0.7"
+    "gulp-node": "^2.0.7",
+    'change': 'gf'
   }
 }
